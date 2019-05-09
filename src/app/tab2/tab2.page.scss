@@ -1,0 +1,21 @@
+:host {
+  .change-size {
+    padding: 40px;
+
+    .font-green {
+      background: #ccc;
+      color: green;
+    }
+
+    /deep/ ion-checkbox {
+      &.custom-checkbox {
+        svg {
+          z-index: 1;
+          background: #0bb8cc;
+        }
+      }
+    }
+  }
+
+
+}

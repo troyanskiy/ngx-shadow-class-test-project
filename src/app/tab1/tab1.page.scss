@@ -1,0 +1,14 @@
+:host {
+  .welcome-card ion-img {
+    max-height: 35vh;
+    overflow: hidden;
+  }
+
+  /deep/ ion-item {
+    &.red-background {
+      .item-native {
+        background: red;
+      }
+    }
+  }
+}
